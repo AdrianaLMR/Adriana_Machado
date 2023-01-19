@@ -1,0 +1,35 @@
+body{
+    color: white;
+    background-color: black;
+    font-family: cursive;
+}
+.navegacao{
+   display: flex;
+   justify-content: space-between;
+   list-style-type: none;
+   align-items: center;
+   padding: 30px;
+}
+nav a:hover{
+    color: blueviolet;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+.monster_rosa{
+    width: 200px;
+    height: 200px;
+    margin-left: 100px;
+    margin-right: 300px;
+}
+.center{
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    margin-top: 20px;
+}
+.contacts{
+    padding: 0px 90px;
+    margin: 100px 100px 0px 100px;
+}

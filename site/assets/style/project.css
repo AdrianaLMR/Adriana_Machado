@@ -1,0 +1,29 @@
+body{
+    color: white;
+    background-color: black;
+    font-family: cursive;
+}
+.navegacao{
+   display: flex;
+   justify-content: space-between;
+   list-style-type: none;
+   align-items: center;
+   padding: 16px;
+}
+
+nav a:hover{
+    color: blueviolet;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+.center{
+ margin-left: 1080px;
+}
+h1{
+   color: blueviolet;
+}
+.container{
+    padding: 0px 90px;
+}
