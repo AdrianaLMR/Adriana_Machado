@@ -18,12 +18,39 @@ a{
     color: white;
     text-decoration: none;
 }
-.center{
- margin-left: 1080px;
-}
 h1{
    color: blueviolet;
 }
 .container{
     padding: 0px 90px;
+}
+.mario_projeto{
+    width: 600px;
+    margin-left: 200px;
+    margin-top: 15px;
+}
+.foguete_gif{
+    width: 150px;
+    height: 150px;
+    margin-left: 80px;
+}
+footer img img{
+    width: 40px;
+    height: 40px;
+}
+footer{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+footer a{
+    margin: 20px;
+    text-align: center;
+}
+footer p{
+    margin-top: 2px;
+}
+.center{
+    text-align: center;
+    display: flex;
 }
