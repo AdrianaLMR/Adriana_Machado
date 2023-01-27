@@ -33,3 +33,19 @@ a{
     padding: 0px 90px;
     margin: 100px 100px 0px 100px;
 }
+footer img img{
+    width: 40px;
+    height: 40px;
+}
+footer{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+footer a{
+    margin: 20px;
+    text-align: center;
+}
+footer p{
+    margin-top: 2px;
+}
