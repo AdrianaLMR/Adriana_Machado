@@ -1,7 +1,8 @@
 body{
     color: white;
-    background-color: black;
+    background:linear-gradient(rgb(6, 6, 6), rgb(43, 22, 54), rgb(0, 0, 0));
     font-family: cursive;
+    overflow: hidden;
 }
 .navegacao{
    display: flex;
@@ -18,16 +19,15 @@ a{
     text-decoration: none;
 }
 .monster_rosa{
-    width: 200px;
-    height: 200px;
-    margin-left: 100px;
-    margin-right: 300px;
+    width: 170px;
+    height: 160px;
+    animation: monster_rosa 5s infinite linear;
+    position: absolute;
+    margin: 42px;
 }
-.center{
-    display: flex;
-    list-style-type: none;
-    align-items: center;
-    margin-top: 20px;
+header h1{
+    margin-left: 550px;
+    color: blueviolet;
 }
 .contacts{
     padding: 0px 90px;
@@ -38,9 +38,11 @@ footer img img{
     height: 40px;
 }
 footer{
-    margin-top: 20px;
+    margin-top: 220px;
     display: flex;
     justify-content: center;
+    align-items:flex-end;
+
 }
 footer a{
     margin: 20px;
@@ -48,4 +50,18 @@ footer a{
 }
 footer p{
     margin-top: 2px;
+}
+@keyframes monster_rosa{
+    0% {
+        right: 0px;
+    }
+    10%{
+        right: 100px;
+    }
+    50%{
+        right: 500px;
+    }
+    100%{ 
+        right: 0%;
+    }
 }
