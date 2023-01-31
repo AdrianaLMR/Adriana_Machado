@@ -39,9 +39,12 @@ footer img img{
     height: 40px;
 }
 footer{
-    margin-top: 20px;
+    margin-top: 50px;
+    margin-bottom: 10px;
     display: flex;
     justify-content: center;
+    border-top: 3px solid;
+    border-color: white;
 }
 footer a{
     margin: 20px;
