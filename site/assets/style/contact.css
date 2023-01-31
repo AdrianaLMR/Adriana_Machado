@@ -2,47 +2,36 @@ body{
     color: white;
     background:linear-gradient(rgb(6, 6, 6), rgb(43, 22, 54), rgb(0, 0, 0));
     font-family: cursive;
-    overflow: hidden;
 }
 .navegacao{
-   display: flex;
-   justify-content: space-between;
-   list-style-type: none;
-   align-items: center;
-   padding: 30px;
-}
-nav a:hover{
-    color: blueviolet;
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    align-items: center;
+    padding: 30px;
 }
 a{
     color: white;
     text-decoration: none;
 }
-.monster_rosa{
-    width: 170px;
-    height: 160px;
-    animation: monster_rosa 5s infinite linear;
-    position: absolute;
-    margin: 42px;
+.center{
+    text-align: center;
 }
-header h1{
-    margin-left: 550px;
+h1{
     color: blueviolet;
+    margin-left: 450px;
+    margin-bottom: 80px;
 }
-.contacts{
-    padding: 0px 90px;
-    margin: 100px 100px 0px 100px;
-}
-footer img img{
-    width: 40px;
-    height: 40px;
+fieldset{
+    position: relative;
 }
 footer{
-    margin-top: 220px;
+    margin-top: 50px;
+    margin-bottom: 10px;
     display: flex;
     justify-content: center;
-    align-items:flex-end;
-
+    border-top: 3px solid;
+    border-color: white;
 }
 footer a{
     margin: 20px;
@@ -51,17 +40,34 @@ footer a{
 footer p{
     margin-top: 2px;
 }
+.center{
+    text-align: center;
+    display: flex;
+}
+.container{
+    padding: 0px 90px;
+}
+nav a:hover{
+    color: blueviolet;
+}
+.monster_rosa{
+    width: 150px;
+    position: absolute;
+    margin-top: -120px;
+    animation: monster_rosa 5s infinite linear;
+}
+.contact{
+    position: absolute;
+}
+
 @keyframes monster_rosa{
-    0% {
-        right: 0px;
-    }
-    10%{
-        right: 100px;
+   0%{
+        right: 150px;
     }
     50%{
-        right: 500px;
+        right: 50%;
     }
-    100%{ 
-        right: 0%;
+    100%{
+        right: 60px;
     }
 }
