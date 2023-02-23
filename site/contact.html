@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./assets/style/contact.css">
     <script type="text/javascript" src="./js/main.js"></script>
+    <link rel="stylesheet" href="./obrigada.htmls">
     <title>Contato</title>
 </head>
 <body>
@@ -29,20 +30,36 @@
             <p>
                 Preencha o formulário abaixo para entrar em contato.
             </p>
-            <form name="Contact" onsubmit="alert('Formulário enviado!!')" method="off" autocomplete="off" target="_blank" method="post" action="trevenlynk038@gmail.com">
+            <form class="contact" name="Contact" target="_blank" action="https://api.staticforms.xyz/submit" method="post">
                 <fieldset style="border: solid 5px blueviolet; margin: 20px 20px 0px 20px; padding: 30px;">
                 <legend>Formulário de contato:</legend>
-                <label>Nome:<small title="Obrigatório">*</a></small></label><br><input type="text" name="name"><br>
-                <label>E-mail:<small title="Obrigatório">*</a></small></label><br><input type="email"/><br>
-                <labe>Assunto:<small title="Obrigatório">*</a></small></labe><br><input type="text"/><br>
-                <label>Mensagem:</label><br>
-                <textarea rows="5" cols="21" name="message"></textarea><br>
-                <label>Enviar Formulário:</label><br>
+                <label>Digite seu nome:</label>
+                <br>
+                <input type="text" name="name" autocomplete="off" required>
+                <br>
+                <label for="email">Digite seu e-mail:</label>
+                <br>
+                <input id="email" type="email" name="email" autocomplete="off" required/>
+                <br>
+                <labe>digite o assunto:</labe>
+                <br>
+                <input type="text" name="assunto" autocomplete="off" required/>
+                <br>
+                <label>Digite sua mensagem:</label>
+                <br>
+                <textarea rows="5" cols="21" name="message"></textarea>
+                <br>
+                <label>Enviar Formulário:</label>
+                <br>
                 <button id="buttonEnviar" type="submit">Enviar</button>
-                <button id="buttonreset" type="reset" value="Limpar formulário">Limpar Formulário</button><br>
-                <img class="monster_rosa" src="./assets/img/alien-rosa.png" alt="Imagem de um alienígena rosa.">
+                <button id="buttonreset" type="reset" value="Limpar formulário">Limpar Formulário</button>
+                <br>
+
+                <input type="hidden" name="accessKey" value="723b60ac-dec2-4463-9f9c-9c2cf2e69e2d">
+                <input type="hidden" name="redirectTo" value="http://127.0.0.1:5500/obrigada.html">
             </fieldset>
             </form>
+            <img class="monster_rosa" src="./assets/img/alien-rosa.png" alt="Imagem de um alienígena rosa.">
         </div>
         <footer>
             <div class="center">
