@@ -53,21 +53,68 @@ nav a:hover{
 .monster_rosa{
     width: 150px;
     position: absolute;
-    margin-top: -120px;
-    animation: monster_rosa 5s infinite linear;
+    margin-top: -150px;
+    animation: monster_rosa 6s infinite linear ;
 }
 .contact{
-    position: absolute;
+    margin-bottom: 160px;
 }
-
 @keyframes monster_rosa{
    0%{
-        right: 150px;
+        right: -190px;
     }
     50%{
         right: 50%;
     }
     100%{
-        right: 60px;
+        right: 100%;
     }
 }
+
+/* página obrigada */
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height:  100vh;
+    flex-direction: column ;
+}
+.text{
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    margin-bottom: 30px;
+    margin-right: 700px;
+}
+.paragrafo{
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+    margin-bottom: 90px;
+}
+.btn{
+    padding: 20px 55px;
+    background: white;
+    text-decoration: none;
+    color: blueviolet;
+    font-size: 18px ;
+    transition: all 0.5s;
+}
+.btn:hover{
+    border-radius: 16px;
+}
+.monster_roxo{
+    width: 120px;
+    margin-left: 500px;
+    position: absolute;
+    animation: monster_roxo 2s infinite linear ;
+}
+@keyframes monster_roxo{
+  0%{
+      top: 10%;
+    }
+  50%{
+      top: 30%;
+    }
+  100%{
+      top: 10%;
+    }
+ }
